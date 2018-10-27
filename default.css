@@ -1,0 +1,250 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #2D2D2D;
+}
+
+h2 {
+	padding: 0px 0px 30px 0px;
+	font-size: 2.50em;
+}
+
+p, ol, ul {
+	margin-top: 0px;
+}
+
+p {
+	line-height: 180%;
+}
+
+
+a {
+	color: rgba(0,0,0,.8);
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a img {
+	border: none;
+}
+
+
+hr {
+	display: none;
+}
+
+.text1
+{
+text-align: center;
+}
+
+#wrapper {
+	background: #FFF;								 /*колір фону*/
+	margin: 0px 20px;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+#header-wrapper
+{
+	background: url(bg.jpg) no-repeat center center;
+	background-size: cover;
+
+	
+}
+
+#header {
+	position: relative;   /*розмер картинки с верху */
+	overflow: hidden;
+	height: 400px;
+}
+
+#social
+{
+	position: absolute;   /*сылка на  блог */
+	top: 20em;
+	right: 0;
+}
+
+#social a 
+{
+	color: #4c60c1;
+}
+/* Логотип  */
+#logo {
+	position: absolute;  /*название сайта */
+	top: 3em;
+	left: 0;
+
+}
+
+#logo h1, #logo p {
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 {
+	font-weight: 400;
+	letter-spacing: -1px;         /*название сайта */
+	text-transform: lowercase;
+	font-size: 3.5em;
+	color: #0b56aa;
+	text-align: center;
+
+}
+
+#logo a {
+	border: none;
+	background: none;				 /*название сайта (цвет сылки)*/
+	text-decoration: none;
+	color: #0b56aa;
+}
+
+/* меню */
+
+#menu {
+	overflow: hidden;    /* фон меню */
+	background: #3c6ca1;   
+}
+
+#menu ul {
+	margin: 0px 0px 0px 0px;    /* настройки пунктов  меню */
+	padding: 0px 0px;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 40px 0px 40px;
+	line-height: 70px;
+	text-decoration: none;				 /* ЦВЕТ СЫЛОК  меню */
+	text-transform: uppercase;   
+	text-align: center;
+	font-size: 25px;
+	font-weight: 200;
+	color: rgba(255,255,255,0.5);
+	border: none;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	text-decoration: none;
+	color: rgba(255,255,255,0.8);
+}
+
+#menu .current_page_item a {
+}
+
+#menu .last {
+	border-right: none;
+}
+
+
+
+#page {
+	overflow: hidden;
+	padding: 5em 0em;
+}
+
+	#page .title
+	{
+		margin-bottom: 2em;   /*отступ между названием проф и картинкой*/
+	}
+
+	#page .title h2
+	{
+		font-size: 1.5em; 		/*параметры шрифта професйи*/
+		font-weight: 400;     
+		color: #3c6ca1;
+	}
+	
+
+
+
+/* Footer */
+
+#footer {
+	overflow: hidden;  				/*запрошуемо на навчання отступ с низу*/
+	padding: 50px 0px 30px 0px;
+}
+
+#footer p {
+	text-align: center;				/*запрошуемо на навчання параметры текста*/
+		color: rgba(0,0,0,0.7);
+}
+
+#footer a {
+		color: rgba(0,0,0,0.7);		/*запрошуемо на навчання параметры сылки*/
+}
+
+	/*Блоки професи*/
+	.column2,
+	.column3,
+	.column4     
+
+	{
+		font-size: 12px;
+		width: 282px;
+	}
+	.column2{
+		margin-bottom: 10px;
+	}
+	.column2,
+	.column3
+	{
+		font-size: 12px;
+		float: left;
+		margin-right: 24px;
+	}
+	
+	.column4
+	{
+		float: right;
+	}
+	.column5 
+	{
+		font-size: 12px;
+	}
+
+	ul.contact li
+	{
+		color: red;
+		display: inline-block;		/*убирает значок списка*/
+		font-size: 1em;
+		
+	}
+	
+	#map 
+	{
+		width: 100%;
+	}
